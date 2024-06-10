@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.containerPedido {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+}
+
+.containerPedido img {
+    width: 450px;
+    height: 300px;
+    padding: 10px;
+}
+
+.containerAvaliacao {
+    display: flex;
+    justify-content: center;
+}
+
+.titleOrder {
+    padding-bottom: 50px;
+}
+
+
+/* config mobile */
+@media (max-width:430px) {
+    
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .containerPedido {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+
+    .containerPedido img {
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+    }
+}
