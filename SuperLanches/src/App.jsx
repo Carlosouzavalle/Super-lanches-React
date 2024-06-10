@@ -55,7 +55,6 @@ function App() {
   ];
 
 
-
   return (
     <>
       <Header />
@@ -64,9 +63,8 @@ function App() {
         <Orders id='cardapio' title="Lanches mais Vendidos" products={products} />
       </section>
       <Banner images={banner2} />
-
       <section id='bebidas'>
-        <Orders id='bebidas' title="Lanches mais Vendidos" products={bebidas} />
+        <Orders id='bebidas' title="bebidas mais Vendidos" products={bebidas} />
       </section>  
       <Footer />
     </>
